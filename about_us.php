@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!--Titel-->
-		<title>BDRCS | Bangladesh Red Crescent Society</title>
-		<link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
-		<!--Custom CSS-->
-		<link rel="stylesheet" href="assets/css/style.css">
-		<!--bootstrap-->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<!--font awesome-->
-		<link rel="stylesheet" href="assets/fontawesome/css/all.css">
-		<!--fonts-->
-		<link rel="stylesheet" href="assets/fonts/fonts.css">
-	</head>
-	<body>
 		<!-- ======= Header Start ======= -->
 		<?php  include("header.php"); ?>
 		<!-- End Header -->
 
-		<!-- ======= Vision & Mission Start ======= -->
+		<!-- ======= Vision & Mission Start ======== -->
 		<section class="vision_mission bg-light pt-5" id="vision_mission">
 			<div class="text-center">
 				<h1 class="display-4">Vision & Mission</h1>
@@ -72,12 +53,5 @@
 		<!-- ======= footer Start ======= -->
 		<?php  include("footer.php"); ?>
 		<!-- End footer -->
-		
-		<!--javascript-->
-		<script src="assets/js/bootstrap.bundle.min.js"></script>
-		<script src="assets/js/smooth-scroll.polyfills.min.js"></script>
-		<script>
-			var scroll = new SmoothScroll('a[href*="#"]');
-		</script>
 	</body>
 </html>

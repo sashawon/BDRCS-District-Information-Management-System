@@ -63,3 +63,19 @@
 		</div>
 	</section>
 </footer>
+
+<!--javascript-->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="assets/datatables/js/dataTables.bootstrap5.min.js"></script>
+	<script src="assets/js/smooth-scroll.polyfills.min.js"></script>
+	<script src="assets/js/jquery.fancybox.min.js"></script>
+
+	<script>
+		$("[data-fancybox]").fancybox();
+	</script>
+
+	<script>
+		var scroll = new SmoothScroll('a[href*="#"]');
+	</script>

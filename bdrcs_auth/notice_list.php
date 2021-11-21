@@ -7,29 +7,6 @@
     die();
   }
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--Titel-->
-    <title>Admin Panel | Bangladesh Red Crescent Society</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
-    <!--bootstrap-->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!--Custom CSS-->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/nav-style.css" rel="stylesheet">
-    <link href="assets/css/nav-style-responsive.css" rel="stylesheet">
-    <!--font awesome-->
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-    <!--fonts-->
-    <link rel="stylesheet" href="assets/fonts/fonts.css">
-  </head>
-  <body>
-    <section id="container">
       <!--header start-->
       <?php include('header.php'); ?>
       <!--header end-->
@@ -179,23 +156,5 @@
       <!--footer start-->
       <?php include('footer.php'); ?>
       <!--footer end-->
-    </section>
-    <!-- javascript -->
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
-    <script src="assets/js/jquery.scrollTo.min.js"></script>
-    <script src="assets/js/jquery.nicescroll.js"></script>
-    <!--common script for all pages-->
-    <script src="assets/js/common-scripts.js"></script>
-
-    <script>
-    function checkdelete()
-    {
-    return confirm('Are you sure you want to DELETE this record?');
-    }
-    </script>
   </body>
 </html>

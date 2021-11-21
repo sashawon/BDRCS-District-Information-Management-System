@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!--Titel-->
-		<title>BDRCS | Bangladesh Red Crescent Society</title>
-		<link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
-		<!--Custom CSS-->
-		<link rel="stylesheet" href="assets/css/style.css">
-		<!--bootstrap-->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<!--font awesome-->
-		<link rel="stylesheet" href="assets/fontawesome/css/all.css">
-		<!--fonts-->
-		<link rel="stylesheet" href="assets/fonts/fonts.css">
-		<!--datatables CSS-->
-		<link rel="stylesheet" type="text/css" href="assets/datatables/css/dataTables.bootstrap4.min.css"/>
-	</head>
-	<body>
 		<!-- ======= Header Start ======= -->
 		<?php  include("header.php"); ?>
 		<!-- End Header -->
@@ -117,10 +96,6 @@
 		<!-- End footer -->
 		
 		<!--javascript-->
-		<script src="assets/js/bootstrap.bundle.min.js"></script>
-		<script src="assets/js/jquery-3.5.1.min.js"></script>
-		<script src="assets/datatables/js/jquery.dataTables.min.js"></script>
-		<script src="assets/datatables/js/dataTables.bootstrap4.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready( function () {
 			$('table').DataTable({

@@ -1,3 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--Titel-->
+		<title>BDRCS | Bangladesh Red Crescent Society</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+		<!--bootstrap-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!--fonts-->
+		<link rel="stylesheet" href="assets/fonts/fonts.css">
+		<!--font awesome-->
+		<link rel="stylesheet" href="assets/fontawesome/css/all.css">
+		<!--datatables CSS-->
+		<!-- <link rel="stylesheet" type="text/css" href="assets/datatables/css/dataTables.bootstrap4.min.css"/> -->
+		<link rel="stylesheet" type="text/css" href="assets/datatables/css/dataTables.bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/datatables/css/dataTables.bootstrap5.min.css">
+		<!--JQuery fancybox-->
+		<link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+		<!--Custom CSS-->
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
 		<header class="main-header">
 			<nav class="navbar navbar-expand-lg navbar-light fixed-top">
 				<div class="container align-items-center">
